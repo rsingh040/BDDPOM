@@ -17,6 +17,7 @@ public class OrderStepDef extends TestBase{
 	@Given("User is on Home Page")
 	public void user_is_on_home_page() {
 	   initialize();
+	   System.out.println("User is on Home Page");
 	}
 	@When("User search an item {string}")
 	public void user_search_an_item(String strItem) {
