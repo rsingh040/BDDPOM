@@ -19,6 +19,7 @@ public class OrderStepDef extends TestBase{
 	   initialize();
 	   System.out.println("User is on Home Page");
 		System.out.println("Updated in remote repo");
+		System.out.println("Updated in phase2");
 	}
 	@When("User search an item {string}")
 	public void user_search_an_item(String strItem) {
